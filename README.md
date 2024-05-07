@@ -20,7 +20,7 @@
 ## Install into ModelBench Repo
 1. Clone ModelBench: `git clone git@github.com:mlcommons/modelbench.git`
 2. Install ModelBench: https://github.com/mlcommons/modelbench?tab=readme-ov-file#installation
-3. Install huggingface plugin: `poetry add modelgauge-huggingface`
-4. Install this package: `poetry add `
+3. Install huggingface plugin and this package: ``
+4. Install this package: `poetry add git+ssh://git@github.com:dhosterman/simplest-modelbench-sut.git modelgauge-huggingface`
 5. Ensure your configuration file has appropriate keys: https://github.com/mlcommons/modelbench?tab=readme-ov-file#trying-it-out
 6. Run ModelBench from the `modelbench` repository: `poetry run modelbench benchmark -s openai-gpt -m 10`
